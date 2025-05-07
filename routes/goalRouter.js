@@ -6,7 +6,7 @@ const {
   getCompletedGoals,
   getSingleGoal,
   updateGoal,
-  deleteGoal,
+  deleteGoal, 
 } = require("../controllers/goalController");
 
 router.post("/", createGoal); // Create a new goal

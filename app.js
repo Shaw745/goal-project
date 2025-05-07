@@ -12,6 +12,7 @@ const goalRouter = require("./routes/goalRouter");
 
 // middleware to parse JSON data from requests
 app.use(express.json());
+app.use(cors())
 // middleware to parse URL-encoded data from requests
 
 // homepage route
